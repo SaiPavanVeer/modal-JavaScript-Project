@@ -1,0 +1,74 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.sign {
+  padding: 1rem;
+  color: white;
+  background-color: #1572a1;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.modalbtn {
+  text-align: center;
+  padding-top: 5rem;
+}
+.modalin {
+  width: 25rem;
+  height: 30rem;
+  color: white;
+  margin: auto;
+  text-align: center;
+  background-color: #9ad0ec;
+  display: grid;
+  align-items: center;
+  border-radius: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s opacity 0, 20s;
+}
+.signup {
+  visibility: visible;
+  opacity: 1;
+}
+.lastBtn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.submit,
+.signBtn {
+  width: 5rem;
+  height: 2rem;
+  background-color: #1572a1;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+.modalout {
+  padding-top: 2rem;
+}
+.closeBtn {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0px 0px 0px 22rem;
+  border-radius: 10px;
+  background-color: #1572a1;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+.contact {
+  margin-left: 0.5rem;
+}
+.mail {
+  margin-left: 1.2rem;
+}
+.age {
+  margin-left: 2rem;
+}
